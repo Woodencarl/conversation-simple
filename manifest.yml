@@ -13,7 +13,7 @@ applications:
   - Conversator
   env:
   NPM_CONFIG_PRODUCTION: false
-  CONVERSATION_URL: https://gateway.watsonplatform.net/conversation/api
+  #CONVERSATION_URL: https://gateway.watsonplatform.net/conversation/api
     WORKSPACE_ID: 02bde6a4-c17a-4480-9f48-538fc640f813
     CONVERSATION_USERNAME: 5a62bae6-b38e-4dcb-b605-790003b9651c
     CONVERSATION_PASSWORD: EfV4803SBo2d  
