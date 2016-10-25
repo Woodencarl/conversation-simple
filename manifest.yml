@@ -10,7 +10,7 @@ applications:
   memory: 256M
   instances: 1
   services:
-  - test_greeting_bot
+  - Conversator
   env:
   NPM_CONFIG_PRODUCTION: false
   WORKSPACE_ID: 02bde6a4-c17a-4480-9f48-538fc640f813
