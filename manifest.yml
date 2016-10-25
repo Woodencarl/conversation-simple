@@ -1,6 +1,6 @@
 ---
 declared-services:
-  Conversator:
+  conversation-service:
     label: conversation
     plan: free
 applications:
@@ -10,6 +10,7 @@ applications:
   memory: 256M
   instances: 1
   services:
-  - Conversator
+  - test_greeting_bot
   env:
-  WORKSPACE_ID: 02bde6a4-c17a-4480-9f48-538fc640f813
+  NPM_CONFIG_PRODUCTION: false
+  WORKSPACE_ID=02bde6a4-c17a-4480-9f48-538fc640f813
