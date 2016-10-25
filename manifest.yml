@@ -12,5 +12,4 @@ applications:
   services:
   - Conversator
   env:
-  NPM_CONFIG_PRODUCTION: false
   WORKSPACE_ID: 02bde6a4-c17a-4480-9f48-538fc640f813
