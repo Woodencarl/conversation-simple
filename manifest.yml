@@ -1,13 +1,13 @@
 ---
 declared-services:
-  conversation-service:
+  Conversator:
     label: conversation
     plan: free
 applications:
 - name: test_greeting_bot
   command: npm start
   path: .
-  memory: 128M
+  memory: 256M
   instances: 1
   services:
   - Conversator
