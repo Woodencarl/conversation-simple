@@ -1,6 +1,6 @@
 ---
 declared-services:
-  conversation-service:
+  Conversator:
     label: conversation
     plan: free
 applications:
